@@ -1,0 +1,26 @@
+{
+    "id": "635CBAA3",
+    "path": "S:/wits_demo_stable_april3/wits_demo_stable/R/data_import_local.R",
+    "project_path": "R/data_import_local.R",
+    "type": "r_source",
+    "hash": "1462505508",
+    "contents": "",
+    "dirty": false,
+    "created": 1719359707417.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "9,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1719360454,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1719360454984,
+    "read_only": false,
+    "read_only_alternatives": []
+}

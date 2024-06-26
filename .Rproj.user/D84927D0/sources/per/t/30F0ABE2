@@ -1,0 +1,26 @@
+{
+    "id": "30F0ABE2",
+    "path": "S:/wits_demo_stable_april3/wits_demo_stable/app.R",
+    "project_path": "app.R",
+    "type": "r_source",
+    "hash": "116224456",
+    "contents": "",
+    "dirty": false,
+    "created": 1719357226494.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "766,48",
+        "scrollLine": "762"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1719360531,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1719360531378,
+    "read_only": false,
+    "read_only_alternatives": []
+}
