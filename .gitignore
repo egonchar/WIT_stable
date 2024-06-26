@@ -50,3 +50,6 @@ rsconnect/
 workspace.RData 
 
 README.md
+
+# credential-related
+priv_key.pem
