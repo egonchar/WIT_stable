@@ -1,3 +1,6 @@
+# hide masking warnings
+options(conflicts.policy = list(warn = FALSE))
+
 # setup_environment.R
 if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
 library(renv)
@@ -5,7 +8,6 @@ library(renv)
 # Proceed without manual confirmation
 renv::restore(clean = TRUE, prompt = FALSE)
 
-options(conflicts.policy = list(warn = FALSE))
 
 ################################################################################
 
@@ -115,5 +117,7 @@ wage_interval_annual <<- 2500
 wage_lower_annual <<- 17000
 wage_upper_annual <<- 230000
 
+# set number of top most transferable occupations
+assign("n", 10, envir = .GlobalEnv)
 
 ###########################

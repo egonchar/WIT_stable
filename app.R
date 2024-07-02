@@ -7,6 +7,20 @@ rm(list = ls(all = TRUE))
 ################################################################################
 ################################################################################
 
+# sets wd if working locally & import data
+if (interactive() && requireNamespace("rstudioapi", quietly = TRUE)) {
+  library(rstudioapi)
+  try({
+    setwd(dirname(rstudioapi::getSourceEditorContext()$path))
+  }, silent = TRUE)  # silent = TRUE to suppress errors in non-interactive sessions
+} else{
+    source("R/data_import_local.R")
+  # to be replaced with database script
+}
+
+################################################################################
+################################################################################
+
 # source("R/data_import_local.R")
 source("R/functions.R")
 source("R/functions_modules.R")
@@ -33,10 +47,9 @@ source("R/ui_modules/sidebarModule.R")
 ################################################################################
 ################################################################################
 
+# Used for debugging
 subset_data_for_computation <<- "no"
 subset_number <<- 250
-
-n <- 10
 
 ################################################################################
 ################################################################################
